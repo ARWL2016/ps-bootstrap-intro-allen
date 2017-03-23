@@ -1,0 +1,15 @@
+{
+  "name": "ps-bootstrap-intro-allen",
+  "version": "1.0.0",
+  "description": "- basic styles depend on bootstrap css\r - widgets require boostrap js \r - Bootstrap js depends on jquery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
