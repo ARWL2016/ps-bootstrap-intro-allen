@@ -17,6 +17,10 @@
 - container-fluid: this will expand and contract to fill the device width. Each column will take up a fixed percentage of the container width. By itself, there will be no stacking and no horizontal scrolling. Pictures will resize but keep their aspect ratio. Text will reflow to fill its container. Column height may become mismatched. Some columns will become unusable.  
 - responsive: the basic mechanism is media queries. These are built into BS. For example, the fixed with is 940px by default, but 1170px on a larger display. Using visible / hidden classes is also helpful.  
 
+####Adding Your Own Styles 
+1. search bootstrap.css for the style being applied
+2. Copy into your own stylesheet and amend  
+
 ####Bootstrap Default Styles 
 - <p> font size: 14px, line-height: 20px, Helvetica
 
@@ -26,4 +30,20 @@
 - Bootstrap class will make it horizontal, like a table  
 
 ####Table Structure 
-<table> <caption> <thead> <tr> <th> <tbody> <tr> <td> 
+- <table> <caption> <thead> <tr> <th> <tbody> <tr> <td> 
+- Classes for <table>: table (full width), table-striped, table-bordered (subtle), table-hover (shading), table-condensed (reduce padding)
+
+####Forms 
+- By default, bootstrap styles forms as stacked (ie block level elements) with a fixed input width and some padding.  
+- 'radio' and 'checkbox' classes align text to button
+- 'input-mini', 'input-large' etc will size inputs. We can also use span sizes.  
+- input class 'search' will create a rounded box 
+- horizontal forms are more difficult: use <form class='form-horizontal'>, <div class="control-group"> and <label class='control-label'>. But we don't need to use tables. 
+- span with class 'help-inline' can offer help text on a form  
+- there are error classes to help with validation 
+
+####Icons 
+- bootstrap recommends the unpopular <i> element (supposed to be for italic text) for icons  
+- but icon classes can also be added to span elements 
+- font awesome has a larger selection of icons, optimized for bs 14px default font size  
+
