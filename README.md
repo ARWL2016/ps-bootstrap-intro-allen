@@ -47,3 +47,23 @@
 - but icon classes can also be added to span elements 
 - font awesome has a larger selection of icons, optimized for bs 14px default font size  
 
+##Components 
+
+####Dropdowns http://getbootstrap.com/components/#dropdowns 
+- classes needed: <div dropdown , <button dropdown-toggle
+- we also use a data-toggle="dropdown" attribute to hook in the js  
+- the dropdown menu is an <ul> 
+- <span class='caret'> adds a little arrow 
+
+####Buttons 
+- button groups create a toolbar effect 
+- split buttons separate the caret from the text. You can then do a separate link / dropdown. The link could go to a page and the dropdown to links on that page. 
+
+####Navigation
+- This can be vertical or horizontal 
+- headings are used for groups of links 
+- there are tabbed, pill and box styles 
+- there is also a tabbable component which reveals sections of a page (similar to the JQuery UI)
+- if you use a fixed navbar, add some margin to the body 
+- breadcrumbs and pagination are other types of nav element which are also based on <ul>
+
